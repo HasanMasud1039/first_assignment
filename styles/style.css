@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.banner{
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    padding-bottom: 60px;
+    margin-bottom: 120px;
+    text-align: right;
+}
+.banner-content{
+    display: inline-block;
+
+    width: 380px;
+    margin-right: 30px;
+    margin-top: 100px;
+    /* border: 2px solid black; An experiment to see div size*/
+}
+.banner-content h1{
+    color: black;
+    margin-bottom: 24px ;
+}
+.banner-des, .photo-div-child2 p, .plan1 p{
+    color: #444343;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+.banner-btn{
+    color: white;
+    background-color: orangered;
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 160px;
+}
+/* End of Header Banner */
+.my-icon{
+    background: url("../images/icons/check-mark.ico");
+        height: 16px;
+        width: 16px;
+        display: inline-block;
+}
+.photo-div{
+    display: flex; 
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.photo-div-child2 ul{
+    padding-top: 10px;
+    color: #444343;
+    list-style: none;
+}
+.photo-div-child2 h1{
+    margin-bottom: 16px;
+}
+.photo-div-child2{
+    border: 2px solid rgb(216, 28, 28);
+    width: 370px;
+    height: 430px;
+    padding-top: 40px;
+}
+.photo-div-child1{
+    background-image: url('../images/person.png');
+    background-size: cover;
+    background-position: center;
+
+    border: 2px solid rgb(216, 28, 28);
+    width: 370px;
+    height: 430px;
+    padding-top: 40px;
+
+}
+
+/* My Plan starts */
+.my-plan-main h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.my-plan{
+    display: flex;
+    gap: 40px;
+    box-shadow: #e77979;
+    margin-left: 230px;
+    margin-right: 230px;
+    height: 300px;
+    justify-content: center;
+}
+.plan1{
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 42px;
+   border: 2px solid black;
+    margin-bottom: 20px;
+}
+.plan1 img{
+    margin-bottom: 20px;
+}
+.plan1 h4{
+    margin-bottom: 10px;
+}
+/* My Hand */
+.my-hand{
+    background-image:  linear-gradient(to right, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+     url("../images/watch.png");
+    
+    text-align: left;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding: 30px;
+    margin: 100px;
+}
+.my-hand-in{
+    align-content: left;
+    text-align: left;
+}
