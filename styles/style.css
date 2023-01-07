@@ -15,7 +15,7 @@
 }
 /* Banner Starts */
 .banner{
-    background-image: url('../images/banner/t.jpg'),linear-gradient(to left, #40038c 20%, rgba(18, 18, 18, 0) 100%);
+    background-image: url('../images/banner/mytt.webp'),linear-gradient(to left, #40038c 20%, rgba(18, 18, 18, 0) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
