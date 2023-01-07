@@ -3,15 +3,27 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+.all-btn{
+    color: white;
+    background-color: orangered;
+    padding: 20px 25px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 150px;
+}
+/* Banner Starts */
 .banner{
-    background-image: url('../images/banner/t.jpg');
+    background-image: url('../images/banner/mytt.webp'),linear-gradient(to left, #40038c 20%, rgba(18, 18, 18, 0) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 80vh;
     padding-bottom: 60px;
     margin-bottom: 120px;
     text-align: right;
+    background-blend-mode: darken;
 }
 .banner-content{
     display: inline-block;
@@ -22,23 +34,16 @@
     /* border: 2px solid black; An experiment to see div size*/
 }
 .banner-content h1{
-    color: black;
     margin-bottom: 24px ;
+    color: rgb(248, 249, 250);
 }
 .banner-des, .photo-div-child2 p, .plan1 p{
-    color: #444343;
+    color: rgb(142, 152, 162);
     font-weight: 400;
     margin-bottom: 30px;
 
 }
-.banner-btn{
-    color: white;
-    background-color: orangered;
-    padding: 20px 25px;
-    border: 0;
-    border-radius: 5px;
-    margin-bottom: 160px;
-}
+
 /* End of Header Banner */
 
 /* Achivement Blog */
@@ -50,9 +55,9 @@
 .achievement-blogs{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     padding: 40px 90px;
-    height: 50vh;    
+    height: 60vh;    
 }
 .achievement-blogs h2{
     padding-top: 30px;
@@ -63,7 +68,7 @@
 
 }
 .achievement-blogs p{
-    padding-top: 50px;
+    padding: 40px 20px;
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -201,17 +206,15 @@
 /* Footer starts */
 footer{
     display: flex;
-    
     color: white;
     background: #0d0703 ;
-    padding: 90px 100px;
+    padding: 50px 100px 30px 100px;
     margin-top: 80px;
     justify-content: space-between;
 }
 .future p{
     margin-top: 20px;
     margin-bottom: 20px;
-    font-weight: ;
 }
 .future a{
     gap: 20px;
