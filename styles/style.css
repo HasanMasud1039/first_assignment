@@ -64,26 +64,31 @@
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
-    color: rgb(236, 12, 12) ;
+    color: red ;
 
 }
 .achievement-blogs p{
-    padding: 40px 20px;
+    padding-top: 20px;
+    padding-left: 51px ;
+    padding-right: 49px;
     text-align: center;
     margin-bottom: 20px;
+    font-weight: 500;
     margin-top: 20px;
-    color: yellow;
+    /* color: #ffff00; */
+    color: white;
 }
 .achieve-blog1{
-    background-image: url('../images/gr2.jpg'), linear-gradient(360deg, #7917f0 0%, rgba(18, 18, 18, 0) 100%);
+    background-image: url('../images/ms.jpg'), linear-gradient(360deg, #9041f1 0%, rgba(18, 18, 18, 0) 100%);
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;
+
     border-radius: 5px;
     box-shadow: 7px 7px rgb(126, 141, 228);
 }
 .achieve-blog2{
-    background-image: url('../images/scho.png'), linear-gradient(360deg, #3ad279 0%, rgba(18, 18, 18, 0) 100%);
+    background-image: url('../images/sc.webp'), linear-gradient(360deg, #4ece83 0%, rgba(18, 18, 18, 0) 100%);
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;
@@ -91,12 +96,12 @@
     box-shadow: 7px 7px rgb(157, 237, 241);
 }
 .achieve-blog3{
-    background-image: url('../images/marriage.jpg'), linear-gradient(360deg, #f20404 0%, rgba(18, 18, 18, 0) 100%);
+    background-image: url('../images/marriage.jpg'), linear-gradient(360deg, #e63b3b 0%, rgba(18, 18, 18, 0) 100%);
     background-blend-mode: darken;
     background-position: center;
     background-size: cover;
     border-radius: 5px;
-    box-shadow: 7px 7px rgb(241, 157, 157);
+    box-shadow: 7px 7px rgb(243, 161, 161);
 }
 /* Achievement Blog End */
 /* Photo div starts : Falures of previous year */
